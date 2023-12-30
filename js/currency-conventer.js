@@ -1,3 +1,5 @@
+console.log("Witam wszystkie osoby zaglądającu tutaj!))");
+
 let formElement = document.querySelector(".js-form");
 let inputElemnet = document.querySelector(".js-pln__input");
 let strongElement = document.querySelector(".js-form__strong");
