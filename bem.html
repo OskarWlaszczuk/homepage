@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem</title>
+    <link rel="stylesheet" href="css/bem.css">
+    <link rel="stylesheet" href="css/formBem.css">
+    <script defer src="js/bem.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <form class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Zarejestruj się</legend>
+            <p class="form__paragraph form__paragraph--underline">Obowiązkowe pola zaznaczono*</p>
+            <p><label class="form__label">Adres email*<input class="form__input" required name="emailAccont"
+                        type="email" value="adres@email.com" placeholder="Adres email"></label></p>
+            <p><label class="form__label">Nazwa użytkownika* <input class="form__input" required name="nameAccount"
+                        minlength="3" maxlength="10" value="Jan" placeholder="Wpisz nazwę użytkownika"></label></p>
+            <p><label class="form__label">Hasło* <input class="form__input" required type="password"
+                        name="passwordAccount" placeholder="Wpisz hasło" minlength="6" maxlength="15"></label>
+            </p>
+            <p class="form__paragraph">Dane opcjonalne:</p>
+            <p><label class="form__label form__label--optional">Płeć: <br><input class="form__input" required
+                        type="radio" checked name="genderAccount" value="female"><span
+                        class="form__span">Kobieta</span></label>
+                <label class="form__label form__label--optional"><br><input class="form__input" required type="radio"
+                        checked name="genderAccount" value="male"><span class="form__span">Mężczyzna</span></label>
+            </p>
+        </fieldset>
+        <button class="form__button">Zakończ rejestrację</button>
+    </form>
+
+</body>
+
+</html>

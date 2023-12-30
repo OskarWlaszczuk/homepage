@@ -1,0 +1,251 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+.containerDark {
+    background-color: #a799ac4d;
+}
+
+.navigation {
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+.navigation__listItem {
+    list-style-type: none;
+    line-height: 2.5;
+}
+
+
+.navigation__listItem:visited {
+    text-decoration: none;
+}
+
+.navigation__span {
+    line-height: 1.7;
+}
+
+.navigation__header {
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.imageAuthor {
+    max-width: 110px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 0px;
+    box-shadow: 3px 0px 5px 1px #8a897f;
+}
+
+.paragraphAuthor {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.buttonAuthorInformation {
+    margin: 13px auto 40px;
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #6457b4d4;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.buttonRemoveImage {
+    margin: 17px auto 17px;
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #6457b4d4;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonChangeBackgroundColor {
+    margin: 13px auto 40px;
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #6457b4d4;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.header {
+    margin: 20px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.header:hover {
+    background-color: rgba(128, 128, 128, 0.358);
+    border-radius: 10px;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.imageRemove {
+    display: none;
+}
+
+.paragraph {
+    text-align: left;
+    margin: 20px;
+    font-size: larger;
+}
+
+.paragraph__div--quote {
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    display: block;
+}
+
+.paragraph__div--quote:hover {
+    background-color: rgba(128, 128, 128, 0.358);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.span--bolderFont {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.imageMetroCover {
+    max-width: 110px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 0px;
+    box-shadow: 3px 0px 5px 1px #8a897f;
+}
+
+.headerImageMetroCover {
+    margin: auto;
+    text-align: center;
+    font-size: 29px;
+}
+
+.headerImageMetroCover:hover {
+    background-color: rgba(128, 128, 128, 0.358);
+}
+
+.div--border-bottom {
+    border-bottom: 4px solid #000000b3;
+    margin: 15px auto;
+}
+
+.div--outline--border {
+    background-color: #8080801a;
+    padding: 15px;
+    outline: 2px solid #00000047;
+    box-shadow: 5px 0px 25px 3px #A9A4AD;
+    display: block;
+    margin: 20px;
+}
+
+.listItem__a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.listItem__a:link {
+    color: black;
+}
+
+.listItem__a:visited {
+    color: black;
+}
+
+.listItem__a:hover {
+    background-color: rgba(128, 128, 128, 0.395);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.footer {
+    margin: 35px auto auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #b7bab9b3;
+    max-width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 9px;
+}
+
+.footer:hover {
+    background-color: #b7bab9ee;
+}
+
+.aside {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 45px auto;
+}
+
+.aside__img {
+    max-width: 210px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 0px;
+    box-shadow: 5px 1px 9px 2px #8a897f;
+}
+
+.paragraph__aside {
+    margin: 30px auto 0px;
+    display: block;
+    text-align: center;
+    background-color: #8080801a;
+    padding: 15px;
+    outline: 2px solid #00000047;
+    box-shadow: 5px 0px 25px 3px #A9A4AD;
+}
+
+.aside__header {
+    margin: -0px auto 5px;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 10px;
+}
+
+.aside__header:hover {
+    background-color: rgba(128, 128, 128, 0.358);
+}
+
+.aside__paragraph--links {
+    font-size: small;
+    font-style: italic;
+    margin: 3px auto 20px;
+    text-align: center;
+}
+
+.span--italic {
+    font-style: italic;
+}

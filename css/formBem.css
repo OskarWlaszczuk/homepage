@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.form__fieldset {
+    border: 3px solid rgb(54, 54, 54);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: left;
+}
+
+.form__legend {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form__paragraph {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.form__paragraph--underline {
+    text-decoration: underline;
+}
+
+.form__label {
+    font-style: italic;
+}
+
+.form__input {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.form__label--optional {
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.form__span {
+    font-weight: normal;
+}
+
+.form__button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(76, 8, 76);
+    color: white;
+}
