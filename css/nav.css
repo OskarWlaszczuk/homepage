@@ -1,0 +1,9 @@
+.navigationBar {
+    display: flex;
+    background-color: #1d202a;
+}
+
+.navigationBar__item {
+    color: white;
+    margin: 20px;
+}
