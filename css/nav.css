@@ -1,9 +1,27 @@
 .navigationBar {
     display: flex;
-    background-color: #1d202a;
+    background-color: #373d51;
+    align-items: center;
+    justify-content: center;
 }
 
 .navigationBar__item {
+    font-weight: 400;
+    text-align: center;
+    flex-basis: 10%;
     color: white;
     margin: 20px;
+    background-color: #0053A6;
+    padding: 10px 20px;
+    border: 1px solid #ffffff82;
+    border-radius: 16px;
+    box-shadow: rgba(0, 121, 242, 0.32) 0px 8px 32px 0px;
+    transition:
+        box-shadow 0.5ms,
+        flex-basis 1s;
+}
+
+.navigationBar__item:hover {
+    box-shadow: rgba(0, 121, 242, 0.32) 0px 8px 32px 8px;
+    flex-basis: 15%;
 }
